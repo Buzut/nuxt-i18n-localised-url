@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     translationDir: 'locales',
     meta: true,
-    debug: true
+    debug: true,
+    disablePageLocales: true
   }
 })
