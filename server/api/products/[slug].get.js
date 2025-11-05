@@ -4,6 +4,10 @@ const products = [
     title: "UltraFit Wireless Earbuds",
     price: "$89.99",
     url: "ultrafit-wireless-earbuds",
+    i18n: {
+      en: "ultrafit-wireless-earbuds",
+      fr: "ecouteurs-ultrafit"
+    },
     description: "Experience crystal-clear audio with our lightweight, noise-canceling wireless earbuds. Perfect for daily use, travel, and workouts."
   },
   {
@@ -11,6 +15,10 @@ const products = [
     title: "SolarCharge Pro Solar Power Bank",
     price: "$119.95",
     url: "solarcharge-pro",
+    i18n: {
+      en: "solarcharge-pro",
+      fr: "batterie-solarcharge-pro",
+    },
     description: "Charge your devices anywhere with the SolarCharge Pro, a powerful solar-powered portable battery with fast-charging capabilities."
   },
   {
@@ -18,6 +26,10 @@ const products = [
     title: "AeroLight Compact Backpack",
     price: "$64.50",
     url: "aerolight-backpack",
+    i18n: {
+      en: "aerolight-backpack",
+      fr: "sac-a-dos-aerolight",
+    },
     description: "A minimalist and functional backpack designed for daily use. Lightweight, durable, and perfect for commuters and travelers."
   },
   {
@@ -25,6 +37,10 @@ const products = [
     title: "PureBrew Reusable Coffee Filter",
     price: "$18.00",
     url: "purebrew-filter",
+    i18n: {
+      en: "purebrew-filter",
+      fr: "filtre-purebrew"
+    },
     description: "Eco-friendly and long-lasting, this reusable coffee filter helps you brew better coffee while reducing waste."
   },
   {
@@ -32,6 +48,10 @@ const products = [
     title: "NovaGlow Smart Desk Lamp",
     price: "$75.00",
     url: "novaglow-lamp",
+    i18n: {
+      en: "novaglow-lamp",
+      fr: "lanterne-novaglow"
+    },
     description: "A modern smart desk lamp with adjustable brightness and color temperature. Ideal for home offices and study spaces."
   },
   {
@@ -39,6 +59,10 @@ const products = [
     title: "Écouteurs sans fil UltraFit",
     price: "89,99 €",
     url: "ecouteurs-ultrafit",
+    i18n: {
+      en: "ultrafit-wireless-earbuds",
+      fr: "ecouteurs-ultrafit"
+    },
     description: "Profitez d'un son clair et net avec ces écouteurs sans fil légers et à annulation de bruit. Idéaux pour l'usage quotidien, les voyages et les entraînements."
   },
   {
@@ -46,6 +70,10 @@ const products = [
     title: "Batterie Solaire SolarCharge Pro",
     price: "119,95 €",
     url: "batterie-solarcharge-pro",
+    i18n: {
+      en: "solarcharge-pro",
+      fr: "batterie-solarcharge-pro"
+    },
     description: "Chargez vos appareils n'importe où avec la SolarCharge Pro, une batterie portable puissante alimentée par l'énergie solaire et dotée de capacités de chargement rapide."
   },
   {
@@ -53,6 +81,10 @@ const products = [
     title: "Sac à dos compact AeroLight",
     price: "64,50 €",
     url: "sac-a-dos-aerolight",
+    i18n: {
+      en: "aerolight-backpack",
+      fr: "sac-a-dos-aerolight",
+    },
     description: "Un sac à dos minimaliste et fonctionnel conçu pour l'usage quotidien. Léger, résistant et parfait pour les commutateurs et les voyageurs."
   },
   {
@@ -60,6 +92,10 @@ const products = [
     title: "Filtre à café réutilisable PureBrew",
     price: "18,00 €",
     url: "filtre-purebrew",
+    i18n: {
+      en: "purebrew-filter",
+      fr: "filtre-purebrew"
+    },
     description: "Un filtre à café écologique et durable qui vous permet de préparer un café de meilleure qualité tout en réduisant les déchets."
   },
   {
@@ -67,6 +103,10 @@ const products = [
     title: "Lampe de bureau intelligente NovaGlow",
     price: "75,00 €",
     url: "lanterne-novaglow",
+    i18n: {
+      en: "novaglow-lamp",
+      fr: "lanterne-novaglow"
+    },
     description: "Une lampe de bureau moderne et intelligente avec une intensité lumineuse et une température de couleur réglables. Idéale pour les bureaux et les espaces de travail."
   }
 ];

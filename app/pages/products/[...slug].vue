@@ -11,9 +11,18 @@ if (error.value) throw createError({
   fatal: true
 });
 
+// This is (and should) be optional
+// if we're fine with /products/[...slug] with /products/ as constant in all locales
+$defineI18nRoute({
+  localeRoutes: {
+    en: '/products/[...slug]',
+    fr: '/produits/[...slug]',
+  },
+})
+
 $setI18nRouteParams({
-  en: { slug: product.value.url },
-  fr: { slug: product.value.url }
+  en: { slug: product.value.i18n.en },
+  fr: { slug: product.value.i18n.fr }
 });
 
 $defineI18nRoute({
