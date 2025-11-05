@@ -1,5 +1,6 @@
 <script setup>
 const { $t, $defineI18nRoute, $getLocale } = useNuxtApp();
+definePageMeta({ name: 'products' });
 
 const { data: products, error } = await useFetch('/api/products');
 if (error.value) throw createError({
