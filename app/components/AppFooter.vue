@@ -1,5 +1,5 @@
 <script setup>
-const { $t, $switchLocalePath, $switchLocaleRoute, $switchRoute, $setI18nRouteParams, $getLocales } = useI18n();
+const { $switchLocalePath, $getLocales } = useI18n();
 </script>
 
 <template>
