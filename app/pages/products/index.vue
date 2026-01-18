@@ -13,12 +13,10 @@ $defineI18nRoute({
   locales: {
     en: {
       title: "Our Product Range",
-      about_us: "About us",
       description: "Discover our collection of high-quality products designed to meet your needs and exceed your expectations."
     },
     fr: {
       title: "Notre Gamme de Produits",
-      about_us: "À propos",
       description: "Découvrez notre collection de produits de haute qualité conçus pour répondre à vos besoins et dépasser vos attentes."
     }
   },
@@ -38,6 +36,6 @@ $defineI18nRoute({
     </li>
   </ul>
 
-  <I18nLink to="/">Home</I18nLink><br>
+  <I18nLink to="/">{{ $t('home') }}</I18nLink><br>
   <I18nLink :to="{ name: 'about-us' }">{{ $t('about_us') }}</I18nLink>
 </template>

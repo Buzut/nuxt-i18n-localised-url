@@ -5,14 +5,10 @@ $defineI18nRoute({
   locales: {
     en: {
       title: "hello",
-      about_us: "About us",
-      all_products: "All products",
       greetings: "How are you today"
     },
     fr: {
       title: "bonjour",
-      about_us: "À propos",
-      all_products: "Tous les produits",
       greetings: "Comment allez-vous aujourd'hui ?"
     }
   }

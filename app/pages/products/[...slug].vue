@@ -27,16 +27,8 @@ $setI18nRouteParams({
 
 $defineI18nRoute({
   locales: {
-    en: {
-      about_us: "About us",
-      all_products: "All products",
-      price: "Price"
-    },
-    fr: {
-      about_us: "À propos",
-      all_products: "Tous les produits",
-      price: "Prix"
-    }
+    en: { price: "Price" },
+    fr: { price: "Prix" }
   }
 });
 </script>
@@ -48,7 +40,7 @@ $defineI18nRoute({
 
   <p><strong>{{ $t('price') }}: {{ product.price }}</strong></p>
   <p>{{ product.description }}</p>
-  <I18nLink to="/">Home</I18nLink><br>
+  <I18nLink to="/">{{ $t('home') }}</I18nLink><br>
 
   <I18nLink :to="{ name: 'products' }">
       {{ $t('all_products') }}
