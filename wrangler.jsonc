@@ -9,6 +9,10 @@
   "name": "i18n-cache-test",
   "main": "./.output/server/index.mjs",
 
+	"observability": {
+    "enabled": true
+  },
+
   "workers_dev": true,
   "preview_urls": true,
   "placement": { "mode": "smart" },
